@@ -1,0 +1,16 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #7600dc;
+    font-size: 1.2em;
+}
+.navbarHome {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    text-decoration: none;
+}
+.navbarItems {
+    display: inline;
+    padding: 8px;
+}

@@ -1,0 +1,35 @@
+.containerTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.films td{
+    border: 1px solid #2a4447;
+    padding: 8px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.films tr:nth-child(even) {
+  background-color: #c9e4ca;
+}
+
+.films td:hover {
+  background-color: #bfc8f5;
+  color: #fff;
+  transition: all 0.2s;
+}
+.inputStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.inputStyle input {
+  border: none;
+  margin-bottom: 0.5em;
+}
+.linkStyle {
+  text-decoration: none;
+}
